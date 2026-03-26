@@ -1,3 +1,117 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SEMANTIC TOKENS — Default theme (Mode 1 / BR)
+   Override this block per brand by wrapping in a theme class, e.g.:
+     .theme-wwm { --color-text-primary: ...; }
+──────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* ── Text ──────────────────────────────────────────── */
+  --color-text-primary:      #1c1f22;
+  --color-text-secondary:    #656c70;
+  --color-text-disabled:     #3f464b;
+  --color-text-inverse:      #ffffff;
+  --color-text-dark-accent:  #001f5a;
+  --color-text-selected:     #0f3db5;
+
+  --color-text-link-default: #0b49ea;
+  --color-text-link-hover:   #0f3db5;
+  --color-text-link-visited: #001f5a;
+  --color-text-link-pressed: #082485;
+  --color-text-link-disabled:#3f464b;
+
+  /* ── Surface ───────────────────────────────────────── */
+  --color-surface-background:    #f6f7f8;
+  --color-surface-foreground:    #ffffff;
+  --color-surface-foreground-dark:#25292d;
+  --color-surface-dashboard:     #f6f7f8;
+  --color-surface-drawer:        #ffffff;
+  --color-surface-widget:        #ffffff;
+  --color-surface-popover:       #ffffff;
+  --color-surface-hover:         #f2f4f5;
+  --color-surface-selected:      #e7f1fc;
+  --color-surface-accent:        #0b49ea;
+  --color-surface-focused:       #0b49ea;
+
+  --color-surface-input-default:  #ffffff;
+  --color-surface-input-disabled: #e0e3e6;
+  --color-surface-input-locked:   #d6dade;
+
+  --color-surface-chip-default:  #f6f7f8;
+  --color-surface-chip-hover:    #f2f4f5;
+  --color-surface-chip-selected: #e7f1fc;
+  --color-surface-chip-white:    #ffffff;
+
+  --color-surface-table-row:          #ffffff;
+  --color-surface-table-row-hover:    #e7f1fc;
+  --color-surface-table-row-selected: #bad1f5;
+  --color-surface-table-header:       #ffffff;
+  --color-surface-table-level1:       #f2f4f5;
+  --color-surface-table-level2:       #d6dade;
+  --color-surface-table-level3:       #bfc4c8;
+  --color-surface-table-focus:        #0a51cc;
+
+  --color-surface-progress-active:     #0b49ea;
+  --color-surface-progress-foreground: #bad1f5;
+
+  --color-surface-toggle-default:  #bfc4c8;
+  --color-surface-toggle-active:   #0b49ea;
+  --color-surface-toggle-disabled: #656c70;
+  --color-surface-toggle-focused:  #bad1f5;
+  --color-surface-toggle-ellipse:  #ffffff;
+
+  --color-surface-nav-default:       #001f5a;
+  --color-surface-nav-hover:         #082485;
+  --color-surface-nav-hover-selected:#0b49ea;
+  --color-surface-nav-selected:      #0f3db5;
+
+  --color-surface-btn-group-bg:      #e9ecee;
+  --color-surface-btn-group-default: #f2f4f5;
+  --color-surface-btn-group-hover:   #f2f4f5;
+  --color-surface-btn-group-active:  #ffffff;
+
+  /* ── Stroke ────────────────────────────────────────── */
+  --color-stroke-default:           #bfc4c8;
+  --color-stroke-dark:              #1c1f22;
+  --color-stroke-light:             #d6dade;
+  --color-stroke-brand:             #0b49ea;
+  --color-stroke-table:             #e9ecee;
+  --color-stroke-controls-default:  #bfc4c8;
+  --color-stroke-controls-disabled: #3f464b;
+  --color-stroke-controls-hover:    #1c1f22;
+
+  /* ── Icon ──────────────────────────────────────────── */
+  --color-icon-brand:         #0b49ea;
+  --color-icon-dark:          #1c1f22;
+  --color-icon-white:         #ffffff;
+  --color-icon-hover:         #082485;
+  --color-icon-disabled:      #3f464b;
+  --color-icon-link-default:  #0b49ea;
+  --color-icon-link-hover:    #0f3db5;
+  --color-icon-link-visited:  #001f5a;
+  --color-icon-link-pressed:  #082485;
+  --color-icon-link-disabled: #3f464b;
+
+  /* ── Navigation ────────────────────────────────────── */
+  --color-nav-active:        #0b49ea;
+  --color-nav-hover:         #f2f4f5;
+  --color-nav-accent:        #0b49ea;
+  --color-nav-dark-accent:   #001f5a;
+  --color-nav-selected:      #e7f1fc;
+  --color-nav-text-selected: #0f3db5;
+
+  /* ── AI ────────────────────────────────────────────── */
+  --color-ai-surface:       #e6e7f9;
+  --color-ai-surface-hover: #c5c7ef;
+  --color-ai-icon:          #5a5fd0;
+  --color-ai-text-default:  #43489c;
+  --color-ai-text-hover:    #313472;
+
+  /* ── Status intercom surfaces ──────────────────────── */
+  --color-intercom-success: #f8fbf8;
+  --color-intercom-error:   #fef6f7;
+  --color-intercom-warning: #fffdfc;
+  --color-intercom-info:    #fafcff;
+}
